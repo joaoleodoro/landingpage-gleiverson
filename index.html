@@ -4,8 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <link rel="stylesheet" href="src/styles/metodo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
+
 <body>
+    <header>
+        <nav id="navbar">
+
+            <img src="src/imgs/logo.webp" alt="logo" id="logo-navbar">
+
+            <ul id="lista-navbar">
+                <li class="item-navbar active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="item-navbar">
+                    <a href="#professor">Professor</a>
+                </li>
+                <li class="item-navbar">
+                    <a href="#modulos">Módulos</a>
+                </li>
+                <li class="item-navbar">
+                    <a href="#ask">Perguntas Frequentes</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Quero entrar agora
+            </button>
+
+            <button class="btn-mobile">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+        <div id="mobile-menu">
+
+            <ul id="mobile-lista-navbar">
+                <li class="item-navbar">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="item-navbar">
+                    <a href="#professor">Professor</a>
+                </li>
+                <li class="item-navbar">
+                    <a href="#modulos">Módulos</a>
+                </li>
+                <li class="item-navbar">
+                    <a href="#ask">Perguntas Frequentes</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Quero entrar agora
+            </button>
+
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div id="hero-section">
+                <div id="cta">
+                    <h1 class="tittle1">CURSO ONLINE DE</h1>
+                    <h2 class="tittle2">Desenho realista a mão livre com grafite</h2>
+                    <p class="description">Aprenda a desenhar retratos realistas a <span>mão livre</span>, mesmo que esteja começando <span>do zero</span>.</p>
+
+                    <a href="#" class="btn-default">
+                        Quero entrar agora
+                    </a>
+                </div>
+
+                <div id="banner">
+                    <img src="src/imgs/background-home.png" alt="Desenho realista feito com grafite" >
+                </div>
+                
+            </div>
+
+            <a href="#" class="btn-default-mobile">
+                Quero entrar agora
+            </a>
+
+            <div id="home-borda"></div>
+
+            <div id="trailer">
+                <div id="texts">
+                    <h2 class="tittle">Veja o trailer do curso online</h2>
+                    <p class="description">Desenhar rostos proporcionais e harmônicos totalmente a mão livre é mais simples do que você imagina.</p>
+                </div>
+
+                <div id="video">
+                    <iframe id="video-trailer" width="560" height="315" src="https://www.youtube.com/embed/6CZiPky4v88?si=b-8nfIDwW09N_jbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="metodo">
+            <div id="content">
+                <div id="imgtittle">
+                    <img src="src/imgs/img-metodo.png" alt="retrato realista de uma mulher" class="banner">
+                    <h2 class="tittle">V.E.R - O único método a mão livre de verdade.</h2>
+                </div>
     
+                <div id="description">
+                    <h2 class="tittle">Método V.E.R</h2>
+                    <h2 class="tittle-mobile">V.E.R - O único método a mão livre de verdade.</h2>
+                    <div id="parags">
+                        <p class="parag">O Método V.E.R. foi pensado para você usar apenas materiais básicos e para que o Hobby de desenhar seja algo simples e acessível!</p>
+                        <p class="parag">Diferente de muitos métodos que você precisa gastar com equipamentos como mesa de luz ou outra forma de fazer decalques, na nossa Escola você aprende a fazer os desenhos à mão livre, aprendendo a lógica por trás da estrutura do esboço.</p>
+                    </div>
+                </div>
+            </div>
+            
+
+
+        </section>
+    </main>
+
+    <script src="src/js/script.js"></script>
 </body>
+
 </html>

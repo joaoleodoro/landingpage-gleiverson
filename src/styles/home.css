@@ -1,0 +1,163 @@
+#home {
+    background-color: #F0EEF1;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 91px);
+    gap: 60px;
+}
+
+#hero-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cta {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 5%;
+}
+
+#cta .tittle1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #2C3424;
+}
+
+#cta .tittle2 {
+    font-size: 60px;
+    font-weight: 500;
+    color: #2C3424;
+}
+
+#cta .description {
+    font-size: 27px;
+    color: #2C3424;
+}
+
+#cta a {
+    width: 50%;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 18px;
+    border-radius: 30px;
+    background-color: #4A563D;
+    color: #F8F8F8;
+}
+
+#cta a:hover {
+    background-color: #606b54;
+}
+
+#home .btn-default-mobile {
+    display: none;
+}
+
+#home-borda {
+    width: 100%;
+    padding: 1px;
+    background-color: black;
+    opacity: 10%;
+}
+
+
+
+#trailer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#trailer #texts {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+#trailer .tittle {
+    font-size: 50px;
+    font-weight: 500;
+    color: #2C3424;
+}
+
+#trailer .description {
+    font-size: 27px;
+    color: #2C3424;
+}
+
+#video-trailer {
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1170px) {
+
+    #hero-section {
+        flex-direction: column;
+    }
+
+    #cta {
+        width: 100%;
+        gap: 30px;
+    }
+
+    #cta .tittle1 {
+        font-size: 18px;
+    }
+
+    #cta .tittle2, #trailer .tittle {
+        font-size: 30px;
+        max-width: 270px;
+    }
+
+    #cta .description, #trailer .description {
+        font-size: 20px;
+    }
+
+    #cta a {
+        display: none;
+    }
+
+    #banner {
+        display: flex;
+        justify-content: center;
+    }
+
+    #banner img {
+        max-width: 60%;
+    }
+
+    #home .btn-default-mobile {
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 400;
+        padding: 22px;
+        border-radius: 30px;
+        background-color: #4A563D;
+        color: #F8F8F8;
+
+    }
+
+
+
+    #trailer  {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    #trailer #texts {
+        width: 100%;
+        gap: 30px;
+    }
+
+    #video-trailer {
+        max-width: 100%;
+    }
+
+
+}
