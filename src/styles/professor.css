@@ -34,6 +34,7 @@
 
 #img-description img {
     max-width: 40%;
+    border-radius: 20px;
 }
 
 #img-description #description {
@@ -81,7 +82,7 @@
     }
     
     #img-description #description p {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
