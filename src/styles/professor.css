@@ -1,0 +1,93 @@
+#professor {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #F0EEF1;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+#professor #texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#professor #texts .tittle1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #2C3424;
+}
+
+#professor #texts .tittle2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #424242;
+}
+
+#img-description {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
+
+#img-description img {
+    max-width: 40%;
+}
+
+#img-description #description {
+    background-color: white;
+    padding: 70px;
+    border-radius: 20px;
+    position: absolute;
+    left: 400px;
+    max-width: 50%;
+    opacity: 90%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#img-description #description p {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 1170px) {
+    #professor {
+        padding-top: 50px;
+        padding-bottom: 300px;
+    }
+    
+    #professor #texts {
+        gap: 0px;
+    }
+    
+    #professor #texts .tittle1 {
+        font-size: 30px;
+    }
+
+    #professor #texts .tittle2 {
+        font-size: 30px;
+    }
+
+    #img-description img {
+        max-width: 90%;
+    }
+
+    #img-description #description {
+        padding: 30px;
+        top: 250px;
+        left: 30px;
+        max-width: 100%;
+    }
+    
+    #img-description #description p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    #professor {
+        padding-bottom: 440px;
+    }
+}
