@@ -1,7 +1,7 @@
 #projetos {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 90px;
 }
 
 #projetos-texts {
@@ -11,9 +11,9 @@
 }
 
 #projetos .parag {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 400;
-    max-width: 45%;
+    max-width: 50%;
 }
 
 #projetos p {
@@ -25,7 +25,7 @@
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 
 #carousel {
@@ -35,7 +35,7 @@
 
 .carousel-track {
     display: flex;
-    gap: 15px;
+    gap: 10px;
     overflow-x: auto;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
@@ -78,18 +78,23 @@
 
 @media screen and (max-width: 1170px) {
 
+    #projetos {
+        gap: 50px;
+    }
+
     #projetos .parag {
-        max-width: 80%;
+        max-width: 70%;
         font-size: 30px;
+    }
+
+    #projetos p {
+        max-width: 80%;
+        font-size: 16px;
+        color: #E2E2E2;
     }
 
     .card {
         min-width: 200px;
         height: 200px;
-    }
-
-    #projetos p {
-        font-size: 18px;
-        max-width: 80%;
     }
 }
