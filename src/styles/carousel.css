@@ -4,28 +4,28 @@
     gap: 50px;
 }
 
+#projetos-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 #projetos .parag {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
     max-width: 45%;
 }
 
+#projetos p {
+    font-size: 25px;
+    color: #E2E2E2;
+}
+
 #carousel-container {
-    background: white;
-    padding: 30px;
-    padding-right: 20px;
-    border-radius: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-#carousel-container .parag {
-    font-size: 22px;
-    font-weight: 400;
-    color: black;
 }
 
 #carousel {
@@ -47,13 +47,14 @@
 }
 
 .card {
-    min-width: 300px;
-    height: 300px;
-    border-radius: 15px;
+    min-width: 400px;
+    height: 400px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
@@ -67,7 +68,7 @@
     border: none;
     font-size: 24px;
     cursor: pointer;
-    color: black;
+    color: white;
 }
 
 #btns {
@@ -79,7 +80,7 @@
 
     #projetos .parag {
         max-width: 80%;
-        font-size: 22px;
+        font-size: 30px;
     }
 
     .card {
@@ -87,8 +88,8 @@
         height: 200px;
     }
 
-    #carousel-container .parag {
+    #projetos p {
         font-size: 18px;
-        max-width: 70%;
+        max-width: 80%;
     }
 }

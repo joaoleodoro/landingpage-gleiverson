@@ -4,7 +4,7 @@
     flex-direction: column;
     padding-top: 100px;
     position: relative;
-    padding-bottom: 150px;
+    padding-bottom: 200px;
 }
 
 #imgtittle {
@@ -13,8 +13,8 @@
 }
 
 #imgtittle .banner {
-    max-width: 524px;
-    border-radius: 20px;
+    max-width: 450px;
+    border-radius: 15px;
 }
 
 #imgtittle .tittle {
@@ -32,10 +32,10 @@
     flex-direction: column;
     background-color: white;
     padding: 50px;
-    border-radius: 20px;
+    border-radius: 15px;
     max-width: 850px;
     position: absolute;
-    top: 440px;
+    top: 350px;
     left: 400px;
     opacity: 90%;
     margin-right: 40px;
@@ -52,6 +52,7 @@
     display: flex;
     gap: 20px;
     font-size: 20px;
+    color: #2C3424;
     
 }
 

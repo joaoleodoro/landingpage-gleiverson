@@ -27,3 +27,31 @@ nextBtn.addEventListener('click', () => {
     }
 });
 
+
+const modulosCard = document.querySelectorAll('.modulos-card');
+
+modulosCard.forEach(mdcard => {
+    mdcard.addEventListener('click', () => {
+        mdcard.classList.toggle('active');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const btnMostrarMais = document.getElementById('mostrar-mais');
+    const modulosCards = document.querySelectorAll('.modulos-card.hidden');
+    
+    // Função para alternar a visibilidade dos cards
+    btnMostrarMais.addEventListener('click', () => {
+        modulosCards.forEach(card => {
+            card.classList.toggle('hidden'); // Alterna entre mostrar e esconder
+        });
+
+        // Muda o texto do botão dependendo do estado
+        if (modulosCards[0].classList.contains('hidden')) {
+            btnMostrarMais.textContent = 'Mostrar mais';
+        } else {
+            btnMostrarMais.textContent = 'Mostrar menos';
+        }
+    });
+});
+

@@ -1,5 +1,5 @@
 #vantagens {
-    background-color: #4A563D;
+    background-color: #586848;
     color: #F8F8F8;
     display: flex;
     flex-direction: column;
@@ -11,19 +11,19 @@
 #vantagens #description {
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 100px;
 }
 
 #description #tittles {
     display: flex;
     align-items: flex-end;
-    gap: 40px;
+    gap: 20px;
 }
 
 #tittles .tittle1 {
     font-size: 80px;
     font-weight: 500;
-    max-width: 50%;
+    max-width: 45%;
 }
 
 #tittles .tittle2 {
@@ -44,8 +44,8 @@
 }
 
 #vantagens .parag {
-    font-size: 25px;
-    max-width: 26%;
+    font-size: 20px;
+    max-width: 25%;
 }
 
 #vantagens #home-borda {
