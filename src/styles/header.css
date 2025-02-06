@@ -3,7 +3,7 @@ header {
     padding: 18px 8%;
     background-color: #F8F8F8;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
 }
 
 #logo-navbar {

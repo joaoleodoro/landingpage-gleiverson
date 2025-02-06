@@ -1,0 +1,200 @@
+#investimento {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    justify-content: center;
+    background-color: #586848;
+}
+
+#investimento-container {
+    background-color: #f8f8f8;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 50%;
+    gap: 40px;
+}
+
+.texts-investimento {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.tittle-investimento h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.subtitle-investimento {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle-investimento p {
+    font-size: 18px;
+    max-width: 36%;
+    font-weight: 500;
+}
+
+.garantia-investimento {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.garantia-investimento img {
+    max-width: 50px;
+}
+
+.garantia-investimento p {
+    max-width: 57%;
+}
+
+.totalprecos-investimento {
+    display: flex;
+}
+
+.preco-investimento, .parcela-investimento {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+}
+
+.text-preco p, .text-parcela p {
+    font-size: 22px;
+    font-weight: 500;
+    color: #707769;
+}
+
+.preco-original, .preco-parcela {
+    display: flex;
+    gap: 10px;
+}
+
+.simbolo {
+    font-size: 22px;
+    font-weight: 500;
+    color: #707769;
+}
+
+.preco-parcela .simbolo {
+    color: #2C3424;
+}
+
+.valor {
+    font-size: 30px;
+    font-weight: 500;
+    color: #707769;
+}
+
+.preco-desconto p, .preco-parcela .valor {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+
+.btn-default.investimento {
+    background-color: #586848;
+    color: #f8f8f8;
+    font-size: 22px;
+    height: 80px;
+    border-radius: 40px;
+    width: 100%;
+}
+
+.img-hotmart {
+    display: flex;
+    justify-content: center;
+}
+
+.img-hotmart img {
+    max-width: 30%;
+}
+
+.btn-img-investimento {
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1170px) {
+    #investimento-container {
+        width: 100%;
+    }
+
+    .tittle-investimento h2 {
+        font-size: 35px;
+    }
+
+    .subtitle-investimento {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .subtitle-investimento p {
+        font-size: 18px;
+        max-width: 80%;
+        font-weight: 500;
+    }
+
+    .garantia-investimento {
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+    }
+
+    .totalprecos-investimento {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .preco-investimento, .parcela-investimento {
+        width: 100%;
+    }
+
+    .text-preco p, .text-parcela p {
+        font-size: 30px;
+    }
+
+    .simbolo {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .valor {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .preco-desconto p, .preco-parcela .valor {
+        font-size: 50px;
+    }
+
+    .btn-default.investimento {
+        font-size: 16px;
+        height: 60px;
+        border-radius: 40px;
+        width: 100%;
+    }
+    
+    .img-hotmart img {
+        max-width: 60%;
+    }
+
+    .btn-img-investimento {
+        display: flex;
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #investimento-container {
+        padding: 30px
+    }
+}
