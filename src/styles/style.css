@@ -17,6 +17,10 @@ section {
     padding: 40px 8%;
 }
 
+a {
+    text-decoration: none;
+}
+
 .btn-default {
     border: 1px solid #2C3424;
     display: flex;

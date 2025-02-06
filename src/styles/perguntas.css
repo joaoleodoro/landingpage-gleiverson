@@ -1,0 +1,7 @@
+#perguntas {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #F8F8F8;
+    padding-bottom: 100px;
+}
