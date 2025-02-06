@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="src/styles/professor.css">
     <link rel="stylesheet" href="src/styles/modulos.css">
     <link rel="stylesheet" href="src/styles/depoimentos.css">
+    <link rel="stylesheet" href="src/styles/bonus.css">
+    <link rel="stylesheet" href="src/styles/suporte.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
@@ -158,6 +160,7 @@
                 
                 <div id="carousel-container">
                     <div id="carousel">
+                        <button id="prev" class="arrow"><i class="fa-solid fa-angle-left"></i></button>
                         <div class="carousel-track">
                             <div class="card"><img src="src/imgs/projeto3.png" alt="Imagem 1"></div>
                             <div class="card"><img src="src/imgs/projeto4.png" alt="Imagem 2"></div>
@@ -168,9 +171,6 @@
                             <div class="card"><img src="src/imgs/projeto2.png" alt="Imagem 7"></div>
                             <div class="card"><img src="src/imgs/projeto1.png" alt="Imagem 8"></div>
                         </div>
-                    </div>
-                    <div id="btns">
-                        <button id="prev" class="arrow"><i class="fa-solid fa-angle-left"></i></button>
                         <button id="next" class="arrow"><i class="fa-solid fa-angle-right"></i></button>
                     </div>
                     
@@ -200,7 +200,7 @@
         </section>
 
         <section id="modulos">
-            
+            <div id="home-borda"></div>
             <div id="modulos-tittles">
                 <h2 class="tittle1">Programa do curso -</h2>
                 <h3 class="tittle2">10 módulos para te ensinar tudo sobre o melhor método de desenhos realistas à mão livre.</h3>
@@ -420,6 +420,121 @@
 
                 <div id="video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/HuwzL15rnQ8?si=qg7pfpXttPRdqzv9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="bonus">
+            <div id="information-bonus">
+                <div id="text-bonus">
+                    <h2 class="tittle">Tenha acesso completo ao curso e receba 5 bônus exclusivos</h2>
+                </div>
+                
+                <div class="card-bonus garantia">
+
+                    <div class="tittles-bonus">
+                        <div class="head-bonus">
+                            <h2>Garantia</h2>
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <div class="subtitle-bonus">
+                            <h3>Garantimos seu dinheiro de volta por até 7 dias</h3>
+                        </div>
+                    </div>
+                        <p class="parag-garantia">Você pode assistir as aulas, e se por qualquer motivo você não ficar satisfeito, basta entrar em contato com a minha equipe dentro do prazo de 7 dias e solicitar o reembolso do valor investido.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="card-bonus-container">
+                <div class="card-bonus-row">
+                    <div class="card-bonus one">
+                        <div class="card-bonus-texts">
+                            <div class="tittles-bonus">
+                                <h2>Bônus 1</h2>
+                                <h3>Como atrair seguidores e transformá-los em fãs e compradores.</h3>
+                            </div>
+                                <p>Aulas para: <br>
+                                    O poder da melhoria contínua. <br>
+                                    Redes sociais – De seguidores a fãs.</p>
+                        </div>
+                    </div>
+
+                    <div class="card-bonus two">
+                        <div class="card-bonus-texts">
+                            <div class="tittles-bonus">
+                                <h2>Bônus 2</h2>
+                                <h3>Encomendas com o artista Fábio Gonçalves</h3>
+                            </div>
+                                <p>Um bate papo aprendendo com o grande artista Fábio Gonçalves, sobre a experiência dele com encomendas para vários países.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-bonus-row">
+                    <div class="card-bonus three">
+                        <div class="card-bonus-texts">
+                            <div class="tittles-bonus">
+                                <h2>Bônus 3</h2>
+                                <h3>Planilha para construção de narração de tutorial</h3>
+                            </div>
+                                <p>Nessa aula eu vou te ensinar passo a passo como utilizar a planilha automática que fiz para as narrações dos meus tutoriais, e vou disponibilizá-la para você baixar e usar a vontade.</p>
+                        </div>
+                    </div>
+
+                    <div class="card-bonus four">
+                        <div class="card-bonus-texts">
+                            <div class="tittles-bonus">
+                                <h2>Bônus 4</h2>
+                                <h3>Edição de vídeo de arte</h3>
+                            </div>
+                                <p>Nessa aula eu te ensino passo a passo como utilizar o programa Cantasia e editar seus vídeos de desenho e aumentar as suas chances de viralização.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-bonus-row three">
+                    <div class="card-bonus five">
+                        <div class="card-bonus-texts">
+                            <div class="tittles-bonus">
+                                <h2>Bônus 5</h2>
+                                <h3>Banco de referências para os seus exercícios</h3>
+                            </div>
+                                <p>
+                                    Vou disponibilizar um banco de imagens pra você baixar e usar como referências nos seus exercícios.</p>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </section>
+
+        <section id="suporte">
+            <div id="home-borda"></div>
+            <div class="container-suporte">
+                <h2>Conte com o melhor suporte em um curso de desenho</h2>
+                
+                <div class="timeline">
+                    <div class="step">
+                        <div class="circle">01</div>
+                        <p class="text">
+                            Seus exercícios serão analisados por mim e eu pontuarei onde precisa ser corrigido e se será ou não necessário refazer o exercício.
+                        </p>
+                    </div>
+                    <div class="step">
+                        <div class="circle">02</div>
+                        <p class="text">
+                            Você receberá total incentivo dos colegas da sua turma, trocando experiências e evoluindo junto com uma comunidade engajada.
+                        </p>
+                    </div>
+                    <div class="step">
+                        <div class="circle">03</div>
+                        <p class="text">
+                            Após 7 dias o professor Gleiverson Duarte entrará em contato com você para te acompanhar na sua jornada e te incluir no grupo.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>

@@ -1,0 +1,162 @@
+#bonus {
+    display: flex;
+    padding-top: 100px;
+    background-color: #F0EEF1;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+#information-bonus {
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+#text-bonus {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#text-bonus .tittle {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#card-bonus-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-bonus-row {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.card-bonus {
+    display: flex;
+    padding: 40px;
+    max-width: 330px;
+    height: 330px;
+    border-radius: 10px;
+    padding-bottom: 55px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-bonus.one {
+    background-color: white;
+    margin-top: 30px;
+    
+}
+
+.card-bonus.two {
+    background-color: #DFD9C9;
+}
+
+.card-bonus.three {
+    background-color: #EDCBB6;
+    margin-top: 30px;
+}
+
+.card-bonus.four {
+    background-color: #E0C896;
+}
+
+.card-bonus.five {
+    background-color: #D3DAD5;
+}
+
+.card-bonus-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tittles-bonus {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.head-bonus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tittles-bonus h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.tittles-bonus h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.card-bonus-texts p, .parag-garantia {
+    font-size: 18px;
+    color: #282828;
+}
+
+.card-bonus.garantia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 370px;
+    background-color: #A3A975;
+    position: sticky;
+    top:80px;
+}
+
+@media screen and (max-width: 1170px) {
+    #bonus {
+        flex-direction: column;
+    }
+
+    .card-bonus.garantia {
+        display: none;
+    }
+
+    #information-bonus {
+        max-width: 90%;
+    }
+
+    #text-bonus .tittle {
+        font-size: 30px;
+    }
+
+    .card-bonus-row {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    #card-bonus-container {
+        gap: 20px;
+    }
+
+    .card-bonus {
+        display: flex;
+        padding: 40px;
+        max-width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        padding-bottom: 55px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-bonus.one {
+        margin-top: 40px;
+    }
+
+    .card-bonus.three {
+        margin-top: 0px;
+    }
+
+    .card-bonus-texts {
+        gap: 30px;
+    }
+}

@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 50px;
     padding-bottom: 100px;
+    background-color: #F8F8F8;
 }
 
 #depoimentos-container {
@@ -28,5 +29,11 @@ iframe {
 
     #depoimentos-container .tittle {
         font-size: 30px;
+        font-weight: 500;
+        max-width: 90%;
+    }
+    
+    iframe {
+        max-width: 100%;
     }
 }

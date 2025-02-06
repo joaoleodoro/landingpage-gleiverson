@@ -1,0 +1,99 @@
+#suporte {
+    background-color: #F0EEF1;
+}
+
+
+.container-suporte {
+    padding-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container-suporte h2 {
+    max-width: 40%;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 70%;
+    height: 3px;
+    background-color: #586848;
+}
+
+.step {
+    width: 30%;
+    text-align: center;
+    position: relative;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #586848;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.step .text {
+    max-width: 60%;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #444;
+    text-align: left;
+}
+
+@media screen and (max-width: 1170px) {
+    .container-suporte h2 {
+        max-width: 80%;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .timeline {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .timeline::before {
+
+        left: 24px;
+        width: 3px;
+        height: 65%;
+        background-color: #586848;
+    }
+
+    .step {
+        display: flex;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .step .text {
+        margin-top: 0px;
+        max-width: 70%;
+    }
+}
