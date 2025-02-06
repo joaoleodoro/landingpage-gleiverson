@@ -1,0 +1,32 @@
+#depoimentos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+#depoimentos-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+#depoimentos-container .tittle {
+    font-size: 50px;
+    font-weight: 500;
+    max-width: 100%;
+}
+
+iframe {
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 1170px) {
+    #depoimentos-container {
+        flex-direction: column;
+    }
+
+    #depoimentos-container .tittle {
+        font-size: 30px;
+    }
+}

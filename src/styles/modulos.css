@@ -3,7 +3,6 @@
     flex-direction: column;
     gap: 30px;
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 #modulos-header {
@@ -11,33 +10,22 @@
     justify-content: space-between;
 }
 
-#garantia-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #2b3521;
-    color: rgb(236, 236, 236);
-    border-radius: 20px;
-    padding: 20px;
-    font-size: 25px;
-    gap: 30px;
-    max-width: 30%;
-}
-
 #modulos-tittles {
     display: flex;
-    flex-direction: column;
-    gap: 30px;
-    max-width: 40%;
+    align-items: flex-end;
+    gap: 50px;
+    max-width: 100%;
     margin-bottom: 30px;
 }
 
 #modulos-tittles .tittle1 {
+    max-width: 20%;
     font-size: 60px;
     font-weight: 500;
 }
 
 #modulos-tittles .tittle2 {
+    max-width: 40%;
     font-size: 25px;
     font-weight: 500;
     color: #424242;
@@ -85,13 +73,18 @@
 
     #modulos-tittles {
         max-width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
     }
 
     #modulos-tittles .tittle1 {
+        max-width: 70%;
         font-size: 40px;
     }
 
     #modulos-tittles .tittle2 {
+        max-width: 100%;
         font-size: 22px;
     }
 
