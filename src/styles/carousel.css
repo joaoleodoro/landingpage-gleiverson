@@ -43,6 +43,7 @@
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+    z-index: 1;
 }
 
 .carousel-track::-webkit-scrollbar {
@@ -58,6 +59,7 @@
     justify-content: center;
     overflow: hidden;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    
 }
 
 .card img {
@@ -73,6 +75,7 @@
     cursor: pointer;
     color: white;
     position: absolute;
+    z-index: 2;
 }
 
 #prev {
