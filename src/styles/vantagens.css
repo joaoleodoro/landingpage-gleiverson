@@ -57,6 +57,11 @@
 
 @media screen and (max-width: 1170px) {
 
+    #vantagens {
+        padding-bottom: 40px;
+        gap: 40px;
+    }
+
     #vantagens #description {
         gap: 50px;
     }
