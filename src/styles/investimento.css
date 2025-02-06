@@ -106,6 +106,10 @@
     width: 100%;
 }
 
+.btn-default.investimento:hover {
+    background-color: #687858;
+}
+
 .img-hotmart {
     display: flex;
     justify-content: center;
