@@ -17,7 +17,32 @@ $(document).ready(function() {
             header.css('box-shadow', '5px 1px 5px rgba(0, 0, 0, 0.1)')
         }
     });
+
+    ScrollReveal().reveal('#cta', {
+        origin: 'left',
+        duration: 2000,
+        distance: '20%',
+    })
+
+    ScrollReveal().reveal('#description', {
+        origin: 'bottom',
+        duration: 1000,
+        distance: '20%',
+    })
+
+    ScrollReveal().reveal('.card-bonus', {
+        origin: 'bottom',
+        duration: 1000,
+        distance: '20%',
+    })
+
+    ScrollReveal().reveal('.container-suporte', {
+        origin: 'left',
+        duration: 2000,
+        distance: '20%',
+    })
 });
+
 
 const prevBtn = document.getElementById('prev');
 const nextBtn = document.getElementById('next');
