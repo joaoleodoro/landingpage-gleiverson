@@ -33,6 +33,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    position: relative;
 }
 
 .carousel-track {
@@ -71,11 +72,15 @@
     font-size: 24px;
     cursor: pointer;
     color: white;
+    position: absolute;
 }
 
-#btns {
-    display: flex;
-    gap: 20px;
+#prev {
+    left: 1%;
+}
+
+#next {
+    left: 98%;
 }
 
 @media screen and (max-width: 1170px) {
@@ -98,5 +103,13 @@
     .card {
         min-width: 200px;
         height: 200px;
+    }
+
+    #prev {
+        left: 3%;
+    }
+    
+    #next {
+        left: 95%;
     }
 }
